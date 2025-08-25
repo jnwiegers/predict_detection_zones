@@ -68,15 +68,6 @@ Users must provide a CSV file (`predict.csv` or `predict_theta.csv`) with the fo
 
 ---
 
-## Scenarios  
-
-The script supports three main use cases:  
-
-### **Scenario 1 & 3**  
-- **EDD/EDA prediction** for:  
-  - A target species without detection zone measurements.  
-  - A novel site with no existing detection zone data.  
-
 ### **Scenario 2 (Hybrid)**  
 - Combines **limited empirical measurements** (e.g., <50 detections) with model predictions.  
 - Uses weighted averaging between the two sources to improve precision.  
@@ -88,5 +79,7 @@ The script supports three main use cases:
 
 For questions or contributions, please contact:  
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
+
+We would love to add more training data to the models so feel free to send me either (peer-reviewed) data or measurements.
 
 
