@@ -46,7 +46,7 @@ library(dplyr)      # for joins and data manipulation
 
 ## Input Data  
 
-Users must provide a CSV file (`predict.csv` or `predict_theta.csv`) with the following columns:  
+Users must provide a CSV file (you can simply edit `predict.csv` or `predict_theta.csv`) with the following columns:  
 
 - **body_mass** (kg)  
 - **ct_height** (m)  
@@ -75,6 +75,7 @@ For questions or contributions, please contact:
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
