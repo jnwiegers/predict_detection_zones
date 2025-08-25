@@ -75,12 +75,13 @@ Users must provide a CSV file (`predict.csv` or `predict_theta.csv`) with the fo
 
 ---
 
-## 📧 Contact  
+## Contact  
 
 For questions or contributions, please contact:  
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
