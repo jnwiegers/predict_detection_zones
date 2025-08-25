@@ -69,19 +69,13 @@ Users must provide a CSV file (`predict.csv` or `predict_theta.csv`) with the fo
 
 ---
 
-### **Scenario 2 (Hybrid)**  
-- Combines **limited empirical measurements** (e.g., <50 detections) with model predictions.  
-- Uses weighted averaging between the two sources to improve precision.  
-- Only implemented for **EDD only** since we show in the manuscript that this does not improve the EDA estimates.  
-
----
-
 ## Contact  
 
 For questions or contributions, please contact:  
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
