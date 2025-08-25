@@ -57,11 +57,11 @@ Users must provide a CSV file (you can simply edit `predict.csv` and/or `predict
 - **max_theta_site** (right-truncated angle, degrees; for EDA)
 
 For scenario 2 you should also provide/edit `example_measurements.csv` with your data:
-- **ID**
-- **distance**
-- **ref**
-- 
-
+- **ID** (detection zone identifier)
+- **distance** (radial distance measurement, m)
+- **ref** (study identifier)
+- **left_trunc** (left truncation distance, m)
+= **right_trunc** (right truncation distance, m)
 ---
 
 ## Usage  
@@ -81,6 +81,7 @@ For questions or contributions, please contact:
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
