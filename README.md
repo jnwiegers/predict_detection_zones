@@ -12,8 +12,8 @@ This script provides a modeling framework that combines **species traits, techni
 ## Features  
 
 The script allows users to:  
-1. **Estimate EDD and EDA for species without sufficient detection data** using mixed-effects models (scenario 1 (and 3)).    
-3. **Combine limited empirical measurements with model-based predictions** to improve estimates for rare species (scenario 2).  
+1. **Estimate EDD and EDA for species without sufficient detection data** using mixed-effects models (manuscript scenario 1).    
+2. **Combine limited empirical measurements with model-based predictions** to improve estimates for rare species (scenario 2).  
 
 ---
 
@@ -88,3 +88,4 @@ The script supports three main use cases:
 
 For questions or contributions, please contact:  
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
+
