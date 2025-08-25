@@ -2,10 +2,11 @@
 
 This repository provides an R script to **predict camera trap detection zones** (effective detection distance and angle) for wildlife species based on species- and camera-specific traits. The approach is based on the paper:  
 
-> Wiegers et al. (2025). *Inferring camera trap detection zones for rare species using species- and camera-specific traits: a meta-level analysis*. Remote Sensing in Ecology and Evolution.  
+> Wiegers et al. (2025). *Inferring camera trap detection zones for rare species using species- and camera-specific traits: a meta-level analysis*. Remote Sensing in Ecology and Evolution.
 
-Accurate estimation of a camera trap’s **effective detection radius (EDD)** and **effective detection angle (EDA)** is essential for wildlife monitoring, especially when calculating densities of unmarked species. However, direct estimation requires large sample sizes of detection events, which is often not feasible for rare species.  
-This script provides a modeling framework that combines **species traits, technical covariates, and limited empirical data** to predict detection zones in three practical scenarios.
+The paper should be open access but let me know if you cannot access it.
+
+Accurate estimation of a camera trap’s **effective detection radius (EDD)** and **effective detection angle (EDA)** is essential for wildlife monitoring, especially when calculating densities of unmarked species. However, direct estimation requires large sample sizes of detection events, which is often not feasible for rare species. This script provides a modeling framework that combines **species traits, technical covariates, and limited empirical data** to predict detection zones in two practical scenarios.
 
 ---
 
@@ -81,6 +82,7 @@ For questions or contributions, please contact:
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
