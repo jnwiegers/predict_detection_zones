@@ -46,7 +46,7 @@ library(dplyr)      # for joins and data manipulation
 
 ## Input Data  
 
-Users must provide a CSV file (you can simply edit `predict.csv` or `predict_theta.csv`) with the following columns:  
+Users must provide a CSV file (you can simply edit `predict.csv` and/or `predict_theta.csv`) with the following columns:  
 
 - **body_mass** (kg)  
 - **ct_height** (m)  
@@ -54,7 +54,13 @@ Users must provide a CSV file (you can simply edit `predict.csv` or `predict_the
 - **T** (snapshot interval in seconds, or `"contact"`)  
 - **data.order** (factor: `Aves`, `Carnivora`, `Primates`, `Rodentia`, `Ungulata`)  
 - **max_r_site** (right-truncated distance, m; for EDD)  
-- **max_theta_site** (right-truncated angle, degrees; for EDA)  
+- **max_theta_site** (right-truncated angle, degrees; for EDA)
+
+For scenario 2 you should also provide/edit `example_measurements.csv` with your data:
+- **ID**
+- **distance**
+- **ref**
+- 
 
 ---
 
@@ -75,6 +81,7 @@ For questions or contributions, please contact:
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
 We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+
 
 
 
