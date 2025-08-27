@@ -80,7 +80,8 @@ For scenario 2 you should also provide/edit `example_measurements.csv` with your
 For questions or contributions, please contact:  
 **J.N. Wiegers** – j.n.wiegers@uu.nl  
 
-We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones.
+We would love to add more training data to the models so feel free to send me (peer-reviewed) data or measurements of detection zones. Last update: **August 2025**
+
 
 
 
